@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "CC99EFC31C8DF7E300F5CD85"
-               BuildableName = "NLHTML5.app"
-               BlueprintName = "NLHTML5"
-               ReferencedContainer = "container:NLHTML5.xcodeproj">
+               BuildableName = "Cumulus.app"
+               BlueprintName = "Cumulus"
+               ReferencedContainer = "container:Cumulus.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC99EFC31C8DF7E300F5CD85"
-            BuildableName = "NLHTML5.app"
-            BlueprintName = "NLHTML5"
-            ReferencedContainer = "container:NLHTML5.xcodeproj">
+            BuildableName = "Cumulus.app"
+            BlueprintName = "Cumulus"
+            ReferencedContainer = "container:Cumulus.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC99EFC31C8DF7E300F5CD85"
-            BuildableName = "NLHTML5.app"
-            BlueprintName = "NLHTML5"
-            ReferencedContainer = "container:NLHTML5.xcodeproj">
+            BuildableName = "Cumulus.app"
+            BlueprintName = "Cumulus"
+            ReferencedContainer = "container:Cumulus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "CC99EFC31C8DF7E300F5CD85"
-            BuildableName = "NLHTML5.app"
-            BlueprintName = "NLHTML5"
-            ReferencedContainer = "container:NLHTML5.xcodeproj">
+            BuildableName = "Cumulus.app"
+            BlueprintName = "Cumulus"
+            ReferencedContainer = "container:Cumulus.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

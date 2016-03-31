@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC3865741CAD74FA002C01E6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC3865731CAD74FA002C01E6 /* .gitignore */; };
 		CC99EFC81C8DF7E300F5CD85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC99EFC71C8DF7E300F5CD85 /* AppDelegate.swift */; };
-		CC99EFCA1C8DF7E300F5CD85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC99EFC91C8DF7E300F5CD85 /* ViewController.swift */; };
-		CC99EFCD1C8DF7E300F5CD85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC99EFCB1C8DF7E300F5CD85 /* Main.storyboard */; };
 		CC99EFCF1C8DF7E300F5CD85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC99EFCE1C8DF7E300F5CD85 /* Assets.xcassets */; };
+		CC9FF3811C94E4EB00E7F972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB4D6801C8E1D8900930A24 /* ViewController.swift */; };
+		CCB4D6831C8E1D9000930A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB4D6821C8E1D9000930A24 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CC99EFC41C8DF7E300F5CD85 /* NLHTML5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLHTML5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3865731CAD74FA002C01E6 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CC99EFC41C8DF7E300F5CD85 /* Cumulus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cumulus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC99EFC71C8DF7E300F5CD85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC99EFC91C8DF7E300F5CD85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CC99EFCC1C8DF7E300F5CD85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC99EFCE1C8DF7E300F5CD85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC99EFD01C8DF7E300F5CD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB4D6801C8E1D8900930A24 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCB4D6821C8E1D9000930A24 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +38,7 @@
 		CC99EFBB1C8DF7E200F5CD85 = {
 			isa = PBXGroup;
 			children = (
-				CC99EFC61C8DF7E300F5CD85 /* NLHTML5 */,
+				CC99EFC61C8DF7E300F5CD85 /* Cumulus */,
 				CC99EFC51C8DF7E300F5CD85 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,29 +46,30 @@
 		CC99EFC51C8DF7E300F5CD85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CC99EFC41C8DF7E300F5CD85 /* NLHTML5.app */,
+				CC99EFC41C8DF7E300F5CD85 /* Cumulus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CC99EFC61C8DF7E300F5CD85 /* NLHTML5 */ = {
+		CC99EFC61C8DF7E300F5CD85 /* Cumulus */ = {
 			isa = PBXGroup;
 			children = (
+				CCB4D6821C8E1D9000930A24 /* Main.storyboard */,
+				CCB4D6801C8E1D8900930A24 /* ViewController.swift */,
 				CC99EFC71C8DF7E300F5CD85 /* AppDelegate.swift */,
-				CC99EFC91C8DF7E300F5CD85 /* ViewController.swift */,
-				CC99EFCB1C8DF7E300F5CD85 /* Main.storyboard */,
 				CC99EFCE1C8DF7E300F5CD85 /* Assets.xcassets */,
 				CC99EFD01C8DF7E300F5CD85 /* Info.plist */,
+				CC3865731CAD74FA002C01E6 /* .gitignore */,
 			);
-			path = NLHTML5;
-			sourceTree = "<group>";
+			path = Cumulus;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CC99EFC31C8DF7E300F5CD85 /* NLHTML5 */ = {
+		CC99EFC31C8DF7E300F5CD85 /* Cumulus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC99EFD31C8DF7E300F5CD85 /* Build configuration list for PBXNativeTarget "NLHTML5" */;
+			buildConfigurationList = CC99EFD31C8DF7E300F5CD85 /* Build configuration list for PBXNativeTarget "Cumulus" */;
 			buildPhases = (
 				CC99EFC01C8DF7E300F5CD85 /* Sources */,
 				CC99EFC11C8DF7E300F5CD85 /* Frameworks */,
@@ -76,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = NLHTML5;
+			name = Cumulus;
 			productName = NLHTML5;
-			productReference = CC99EFC41C8DF7E300F5CD85 /* NLHTML5.app */;
+			productReference = CC99EFC41C8DF7E300F5CD85 /* Cumulus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -93,10 +96,11 @@
 				TargetAttributes = {
 					CC99EFC31C8DF7E300F5CD85 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R4WWFYZT6Y;
 					};
 				};
 			};
-			buildConfigurationList = CC99EFBF1C8DF7E200F5CD85 /* Build configuration list for PBXProject "NLHTML5" */;
+			buildConfigurationList = CC99EFBF1C8DF7E200F5CD85 /* Build configuration list for PBXProject "Cumulus" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CC99EFC31C8DF7E300F5CD85 /* NLHTML5 */,
+				CC99EFC31C8DF7E300F5CD85 /* Cumulus */,
 			);
 		};
 /* End PBXProject section */
@@ -120,7 +124,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC99EFCF1C8DF7E300F5CD85 /* Assets.xcassets in Resources */,
-				CC99EFCD1C8DF7E300F5CD85 /* Main.storyboard in Resources */,
+				CC3865741CAD74FA002C01E6 /* .gitignore in Resources */,
+				CCB4D6831C8E1D9000930A24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,23 +136,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC99EFCA1C8DF7E300F5CD85 /* ViewController.swift in Sources */,
+				CC9FF3811C94E4EB00E7F972 /* ViewController.swift in Sources */,
 				CC99EFC81C8DF7E300F5CD85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CC99EFCB1C8DF7E300F5CD85 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC99EFCC1C8DF7E300F5CD85 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CC99EFD11C8DF7E300F5CD85 /* Debug */ = {
@@ -236,10 +230,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = NLHTML5/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Cumulus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = michieldemey.NLHTML5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = michieldemey.Cumulus;
+				PRODUCT_NAME = Cumulus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -248,17 +245,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = NLHTML5/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Cumulus/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = michieldemey.NLHTML5;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = michieldemey.Cumulus;
+				PRODUCT_NAME = Cumulus;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CC99EFBF1C8DF7E200F5CD85 /* Build configuration list for PBXProject "NLHTML5" */ = {
+		CC99EFBF1C8DF7E200F5CD85 /* Build configuration list for PBXProject "Cumulus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC99EFD11C8DF7E300F5CD85 /* Debug */,
@@ -267,13 +267,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC99EFD31C8DF7E300F5CD85 /* Build configuration list for PBXNativeTarget "NLHTML5" */ = {
+		CC99EFD31C8DF7E300F5CD85 /* Build configuration list for PBXNativeTarget "Cumulus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CC99EFD41C8DF7E300F5CD85 /* Debug */,
 				CC99EFD51C8DF7E300F5CD85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

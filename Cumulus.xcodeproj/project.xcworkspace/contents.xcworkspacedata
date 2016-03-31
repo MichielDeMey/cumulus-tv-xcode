@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NLHTML5.xcodeproj">
+      location = "self:/Users/michiel/Documents/projects/tvos/NLHTML5/Cumulus.xcodeproj">
    </FileRef>
 </Workspace>
