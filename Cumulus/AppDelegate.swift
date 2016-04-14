@@ -18,7 +18,8 @@ class AppDelegate: UIResponder,
     
     static let TVBaseURL = "http://michieldemey.local:8000"
     // static let TVAuthUrl = "https://cumulus-auth.herokuapp.com"
-    static let TVAuthUrl = "http://michieldemey.local:3000"
+    static let TVAuthUrl = "https://cumulus.astromo.io"
+    //static let TVAuthUrl = "http://michieldemey.local:3000"
     static let TVBootURL = "\(AppDelegate.TVBaseURL)/dist/app.js"
 
 

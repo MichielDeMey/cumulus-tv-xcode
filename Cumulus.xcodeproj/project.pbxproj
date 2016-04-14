@@ -10,8 +10,6 @@
 		CC3865741CAD74FA002C01E6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC3865731CAD74FA002C01E6 /* .gitignore */; };
 		CC99EFC81C8DF7E300F5CD85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC99EFC71C8DF7E300F5CD85 /* AppDelegate.swift */; };
 		CC99EFCF1C8DF7E300F5CD85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC99EFCE1C8DF7E300F5CD85 /* Assets.xcassets */; };
-		CC9FF3811C94E4EB00E7F972 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCB4D6801C8E1D8900930A24 /* ViewController.swift */; };
-		CCB4D6831C8E1D9000930A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB4D6821C8E1D9000930A24 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,8 +18,6 @@
 		CC99EFC71C8DF7E300F5CD85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC99EFCE1C8DF7E300F5CD85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC99EFD01C8DF7E300F5CD85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCB4D6801C8E1D8900930A24 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCB4D6821C8E1D9000930A24 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +50,6 @@
 		CC99EFC61C8DF7E300F5CD85 /* Cumulus */ = {
 			isa = PBXGroup;
 			children = (
-				CCB4D6821C8E1D9000930A24 /* Main.storyboard */,
-				CCB4D6801C8E1D8900930A24 /* ViewController.swift */,
 				CC99EFC71C8DF7E300F5CD85 /* AppDelegate.swift */,
 				CC99EFCE1C8DF7E300F5CD85 /* Assets.xcassets */,
 				CC99EFD01C8DF7E300F5CD85 /* Info.plist */,
@@ -125,7 +119,6 @@
 			files = (
 				CC99EFCF1C8DF7E300F5CD85 /* Assets.xcassets in Resources */,
 				CC3865741CAD74FA002C01E6 /* .gitignore in Resources */,
-				CCB4D6831C8E1D9000930A24 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +129,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC9FF3811C94E4EB00E7F972 /* ViewController.swift in Sources */,
 				CC99EFC81C8DF7E300F5CD85 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
